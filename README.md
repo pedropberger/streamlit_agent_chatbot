@@ -4,7 +4,6 @@
 
 Esta é uma aplicação web construída com Streamlit que permite interagir com um agente de IA via API. Os usuários podem enviar prompts, visualizar respostas, acessar o histórico de chats na barra lateral e interagir com as respostas (copiar ou avaliar). A aplicação se integra a uma API em localhost:1234 que recebe um payload no formato {"prompt": "texto do prompt"} e retorna {"resposta": "texto da resposta"}.
 
-![Chatbot Interface Screenshot](https://via.placeholder.com/800x450.png?text=Chatbot+Interface+Screenshot)
 
 ## Funcionalidades
 
@@ -133,7 +132,3 @@ print(response.json())
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
-
-## Contato
-
-Para dúvidas ou sugestões, entre em contato com [seu-email@exemplo.com].
